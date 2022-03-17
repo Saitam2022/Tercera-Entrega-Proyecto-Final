@@ -1,0 +1,10 @@
+/* SE APLICARON VARIABLES PARA LOS COLORES DEL NAVBAR, MAIN, FOOTER Y NEWSLETTER. TAMBIÉN SE APLICÓ UN MIXIN */
+
+$navbarymain-color: #0C0C0E;
+$mainfooterynewsletter-color: grey;
+$footersocial-color: #F21628;
+$textoprincipal-color: grey;
+
+@mixin borderradius {
+    border-radius: 15px;
+}

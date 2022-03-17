@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* SE APLICARON PARTIALS PARA ORDENAR POR SECCIONES */
+/* SE APLICARON VARIABLES PARA LOS COLORES DEL NAVBAR, MAIN, FOOTER Y NEWSLETTER. TAMBIÉN SE APLICÓ UN MIXIN */
+/* ACA COLOCO EL RESETEO GENERAL */
+body {
+  font-family: 'Special Elite', cursive; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* NAV */
+/* PARA EL NAV SE REALIZÓ UN ANIDAMIENTO Y SE UTILIZÓ UNA PSEUDOCLASE */
+.navbar {
+  background-color: #0C0C0E; }
+
+.navbar-brand img {
+  width: 200px;
+  transition: .6s all;
+  text-align: center; }
+  .navbar-brand img:hover {
+    width: 240px; }
+
+/* FIN NAV */
+/* MAIN */
+/* SE ANIDÓ EL MAIN Y SE APLICARON PSEUDOCLASES */
+/* SE APLICARON MIXINS PARA EL BORDER RADIUS DE LOS TITULOS */
+main {
+  padding: 10px;
+  text-align: center;
+  background-color: #0C0C0E;
+  overflow: hidden;
+  height: auto; }
+  main h4 {
+    background-color: grey;
+    border-radius: 15px;
+    border-color: #F21628;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px 8px;
+    max-width: max-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+  .float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
+/* MAIN VIDEOS */
+.galeria__videos {
+  text-align: center;
+  border-style: none;
+  border-width: thin;
+  overflow: hidden;
+  width: auto;
+  margin: auto; }
+  .galeria__videos iframe {
+    width: 500px;
+    height: 270px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto; }
+
+/* FIN MAIN VIDEOS */
+/* MAIN BAND */
+.h5listaintegrantes {
+  color: grey;
+  text-align: center;
+  list-style: none; }
+
+#band img:hover {
+  transition: 1.5s;
+  transform: scale(105%); }
+
+/* FIN MAIN BAND */
+/* MAIN HISTORIA */
+.h5informacionnosotros {
+  color: grey;
+  text-align: justify;
+  list-style: none; }
+
+/* FIN MAIN HISTORIA */
+/* MAIN FLYERS */
+#flyers .col-lg-4 {
+  padding: 25px; }
+  #flyers .col-lg-4 img {
+    width: 100%;
+    height: 450px; }
+    #flyers .col-lg-4 img:hover {
+      border: 5px solid #fff; }
+
+/* FIN MAIN FLYERS */
+/* MAIN INFO CONTACTOS */
+.h5informacionshows {
+  color: grey;
+  text-align: center;
+  list-style: none; }
+
+.scorpion {
+  text-align: center;
+  margin: 20px; }
+
+.info__scorpion {
+  border-radius: 10px;
+  margin: auto;
+  width: 250px;
+  height: auto; }
+
+.cajaflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: initial; }
+
+.cajaflexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: initial;
+  color: grey; }
+
+.form-label {
+  align-self: flex-start;
+  color: grey; }
+
+/* FIN MAIN INFO CONTACTOS */
+/* FIN MAIN */
+/* FOOTER */
+/* EN EL FOOTER SE APLICARON ANIDAMIENTOS Y UNA PSEUDOCLASE */
+#newsletterformulario {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto; }
+
+.footer {
+  background: grey;
+  text-align: center;
+  padding: 10px; }
+
+.footer__elemento {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 10px; }
+
+.footer__link {
+  color: #F21628;
+  text-decoration: none; }
+
+.footer__socialimg {
+  width: 40px; }
+  .footer__socialimg:hover {
+    background: #F21628;
+    border-radius: 8px; }
+
+.footer__creditosyterminos {
+  font-size: 12px; }
+
+/* FIN FOOTER */

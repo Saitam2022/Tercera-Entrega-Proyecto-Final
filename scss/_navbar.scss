@@ -1,0 +1,18 @@
+/* NAV */
+
+/* PARA EL NAV SE REALIZÓ UN ANIDAMIENTO Y SE UTILIZÓ UNA PSEUDOCLASE */
+
+.navbar {
+    background-color: $navbarymain-color;
+} 
+
+.navbar-brand img { 
+    width: 200px;
+    transition: .6s all;
+    text-align: center;
+    &:hover { 
+        width: 240px;
+    }
+} 
+
+/* FIN NAV */
